@@ -1,0 +1,20 @@
+[flake8]
+# Maximum line length
+max-line-length = 88
+
+# Ignore only line too long error
+ignore = E501
+
+# Exclude directories or files from checks
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist
+
+# Specify which files or file patterns to include in checks
+filename =
+    *.py
+    **/*.py
